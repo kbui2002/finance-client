@@ -16,6 +16,7 @@ export class ProjectDetailComponent implements OnInit {
   }
   staffs: Member[] = []
   numStaffs = 0
+  
   projectId: string = ""
   project: Project | undefined = {
     id: '',
